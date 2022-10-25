@@ -1,0 +1,27 @@
+{
+  "githubToken": "",
+  "gitlabToken": "",
+  "localTemplates": [],
+  "remoteTemplates": [
+    {
+      "owner": "njzydark",
+      "repo": "templates",
+      "path": "",
+      "type": "github"
+    }
+  ],
+  "npmDependeniesInstall": {
+    "auto": true,
+    "silent": false,
+    "manager": "npm"
+  },
+  "git": {
+    "init": true,
+    "firstCommit": ""
+  },
+  "editorOpen": {
+    "name": "vscode",
+    "command": "code",
+    "enable": false
+  }
+}

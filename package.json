@@ -1,0 +1,40 @@
+{
+  "name": "project-template-cli",
+  "version": "1.2.0",
+  "description": "A simple cli to create project from template",
+  "bin": {
+    "template": "bin/index.js"
+  },
+  "author": "njzydark",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "figlet": "^1.5.0",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "open": "^7.3.0",
+    "ora": "^5.1.0",
+    "query-string": "^6.13.7",
+    "shelljs": "^0.8.4"
+  },
+  "main": "bin/template.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njzydark/project-template-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "template",
+    "node"
+  ],
+  "bugs": {
+    "url": "https://github.com/njzydark/project-template-cli/issues"
+  },
+  "homepage": "https://github.com/njzydark/project-template-cli#readme"
+}
